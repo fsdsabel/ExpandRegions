@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="ExpandRegions..a148547e-90e8-4d4e-8754-e5dcc169ae4c" Version="1.0" Language="en-US" Publisher="Daniel Sabel"/>
     <DisplayName>ExpandRegions</DisplayName>
-    <Description xml:space="preserve">This extension expands all regions in C# and Visual Basic when a file is opened. It's a slimmed down version of "I Hate #Regions" for VS2017.</Description>
+    <Description xml:space="preserve">This extension expands all regions in C# and Visual Basic when a file is opened. It's a slimmed down version of \"I Hate #Regions\" for VS2017.</Description>
     <License>license.txt</License>
   </Metadata>
   <Installation>

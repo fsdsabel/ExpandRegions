@@ -50,17 +50,29 @@
       <HintPath>..\..\packages\Microsoft.VisualStudio.Text.UI.Wpf.15.0.26201\lib\net45\Microsoft.VisualStudio.Text.UI.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classifications\ClassifierProvider.cs" />
+    <Compile Include="Classifications\InactiveRegionClassification.cs" />
+    <Compile Include="Classifications\ActiveRegionClassification.cs" />
+    <Compile Include="Classifications\ClassificationFormatDefinition.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Tags\RegionTag.cs" />
+    <Compile Include="Tags\RegionTagger.cs" />
+    <Compile Include="Tags\RegionTaggerProvider.cs" />
     <Compile Include="RegionTextViewHandler.cs" />
     <Compile Include="TextViewCreationListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
