@@ -13,7 +13,7 @@
         internal const string TextViewRole = "DOCUMENT";
 
         internal const string ActiveRegionName = "Active Region";
-        internal const string InactiveRegionName = "Active Region";
+        internal const string InactiveRegionName = "Inactive Region";
         internal const string ActiveRegionClassificationTypeNames = "activeRegion";
         internal const string InactiveRegionClassificationTypeNames = "inactiveRegion";
 
