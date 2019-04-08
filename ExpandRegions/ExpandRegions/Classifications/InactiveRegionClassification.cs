@@ -19,9 +19,6 @@ namespace ExpandRegions.Classifications
         // Methods
         public InactiveRegionClassification()
         {
-            ForegroundColor = Colors.Gray;
-            FontRenderingSize = 10;
-            ForegroundOpacity = 0.5;
         }
 
         #endregion

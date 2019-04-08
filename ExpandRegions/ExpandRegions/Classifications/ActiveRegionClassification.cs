@@ -19,7 +19,6 @@ namespace ExpandRegions.Classifications
         // Methods
         public ActiveRegionClassification()
         {
-            ForegroundColor = Colors.DarkGray;
         }
 
         #endregion
