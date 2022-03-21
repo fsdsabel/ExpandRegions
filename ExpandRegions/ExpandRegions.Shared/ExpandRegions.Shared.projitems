@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fbc00120-756e-4980-af6c-3f8a1985d116</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ExpandRegions.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Classifications\ActiveRegionClassification.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classifications\ClassificationFormatDefinition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classifications\ClassifierProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classifications\InactiveRegionClassification.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RegionTextViewHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tags\RegionTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tags\RegionTagger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tags\RegionTaggerProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextViewCreationListener.cs" />
+  </ItemGroup>
+</Project>

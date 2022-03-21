@@ -1,28 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandRegions.Vsix", "ExpandRegions\ExpandRegions.Vsix\ExpandRegions.Vsix.csproj", "{385A8ABF-958E-4172-B699-F78FC166C254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandRegions.Vsix.2019", "ExpandRegions\ExpandRegions.Vsix.2019\ExpandRegions.Vsix.2019.csproj", "{385A8ABF-958E-4172-B699-F78FC166C254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandRegions", "ExpandRegions\ExpandRegions\ExpandRegions.csproj", "{3343DBB6-1BD1-4824-A369-BEA0F5A08FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandRegions.Vsix.2022", "ExpandRegions\ExpandRegions.Vsix.2022\ExpandRegions.Vsix.2022.csproj", "{F9D468F7-0E72-443A-9A0E-8E8FA2008715}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ExpandRegions.Shared", "ExpandRegions\ExpandRegions.Shared\ExpandRegions.Shared.shproj", "{FBC00120-756E-4980-AF6C-3F8A1985D116}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ExpandRegions\ExpandRegions.Shared\ExpandRegions.Shared.projitems*{385a8abf-958e-4172-b699-f78fc166c254}*SharedItemsImports = 5
+		ExpandRegions\ExpandRegions.Shared\ExpandRegions.Shared.projitems*{f9d468f7-0e72-443a-9a0e-8e8fa2008715}*SharedItemsImports = 5
+		ExpandRegions\ExpandRegions.Shared\ExpandRegions.Shared.projitems*{fbc00120-756e-4980-af6c-3f8a1985d116}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{385A8ABF-958E-4172-B699-F78FC166C254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{385A8ABF-958E-4172-B699-F78FC166C254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385A8ABF-958E-4172-B699-F78FC166C254}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{385A8ABF-958E-4172-B699-F78FC166C254}.Debug|x64.Build.0 = Debug|Any CPU
 		{385A8ABF-958E-4172-B699-F78FC166C254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{385A8ABF-958E-4172-B699-F78FC166C254}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3343DBB6-1BD1-4824-A369-BEA0F5A08FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3343DBB6-1BD1-4824-A369-BEA0F5A08FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3343DBB6-1BD1-4824-A369-BEA0F5A08FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3343DBB6-1BD1-4824-A369-BEA0F5A08FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385A8ABF-958E-4172-B699-F78FC166C254}.Release|x64.ActiveCfg = Release|Any CPU
+		{385A8ABF-958E-4172-B699-F78FC166C254}.Release|x64.Build.0 = Release|Any CPU
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Debug|x64.ActiveCfg = Debug|x64
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Debug|x64.Build.0 = Debug|x64
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Release|x64.ActiveCfg = Release|x64
+		{F9D468F7-0E72-443A-9A0E-8E8FA2008715}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBB9389E-EE09-49A2-916F-24B4DB716CE9}
 	EndGlobalSection
 EndGlobal
